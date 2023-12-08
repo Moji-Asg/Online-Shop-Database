@@ -41,7 +41,7 @@ The entities represented in the database are:
      * is_staff* (BOOL) (default: false)
      * is_superuser* (BOOL) (default: false)
      * is_active* (BOOL) (default: true)
-     * last_login_date (TIMESTAMP)
+     * last_login_date* (TIMESTAMP)
      * join_date* (TIMESTAMP) (default: CURRENT_TIMESTAMP),
    * Indexes:
      * username and password

@@ -7,7 +7,7 @@ CREATE TABLE `users` (
     `is_staff` BOOL DEFAULT FALSE,
     `is_superuser` BOOL DEFAULT FALSE,
     `is_active` BOOL NOT NULL DEFAULT TRUE,
-    `last_login_date` TIMESTAMP,
+    `last_login_date` TIMESTAMP NOT NULL,
     `join_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     INDEX `idx_users_users_username_password` (`username`, `password`)
 );
